@@ -1,10 +1,4 @@
-"""
-ai_analyzer.py
 
-Calls the Gemini API to produce a structured Markdown trade report.
-If no API key is set, falls back to a hardcoded template so the service
-stays usable without any external credentials.
-"""
 
 import os
 import httpx
